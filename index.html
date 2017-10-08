@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- icon and title of the page -->
+  <link rel="icon" href="http://www.freepngimg.com/thumb/cherry/3-red-cherry-png-image-download-thumb.png"/>
+  <title>CPS530 Lab #2 | Gogi, Akanksha</title>
+
+  <!-- meta info -->
+  <meta name="description" content="A few of my favorite films">
+  <meta name="keywords" content="Film,Movie">
+  <meta name="author" content="Akanksha Gogi">
+
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+  <style>
+
+	body {
+		font-family:'Crimson Text', serif;
+		font-size:1em;
+		font-weight:200;
+		margin:0;
+		background-color:#fff;
+		overflow-x:hidden;
+		color:#000;
+	}
+
+	a {
+		text-decoration:none;
+		color:#000;
+	}
+
+	b, i {
+		color:#545454;
+	}
+
+	h1, h2, h3 {
+		font-weight:800;
+		font-size:2em;
+		font-family:'Helvetica', sans-serif;
+	}
+
+	h1 {font-weight:100;}
+	
+	h2 {font-weight:600;color:#fff;font-size:1.4em;background-color:#000;display:block;width:12em;padding:0.2em 1em;margin:0em;}
+	
+	header {
+	    margin:0px auto;
+	    width:100%;
+	    padding-top:2em;
+	    text-align:center;
+	}
+	
+	#info {
+	    margin:0em auto;
+	    padding:0.3em;
+	    background-color:#f9f9f9;
+	    border-radius:0.1em;
+	    border:1px solid #f0f0f0;
+	    width:17em;
+	}
+
+    .student-info {
+        display:inline-block;
+        color:#545454;
+        margin-right:3em;
+        margin-left:3em;
+        font-size:0.7em;
+        font-family:'Helvetica',sans-serif;
+    }
+    
+    #other {
+        width:25em;
+        margin:0em auto;
+    }
+    
+    #links {
+        width:8em;
+        padding-top:2em;
+        float:left;
+        margin-top:1.5em;
+        text-align:right;
+    }
+    
+    #links a {
+        display:block;
+        font-size:0.6em;
+        font-weight:bold;
+        font-family:Helvetica, sans-serif;
+        text-transform:uppercase;
+        margin-bottom:0.5em;
+    }
+    
+    #links a:hover {
+        font-style:italic;
+    }
+    
+    h1#title {
+        float:right;
+        text-align:left;
+        width:8em;
+        text-decoration:underline;
+    }
+    
+    h3.question {
+        margin-top:2em;
+        font-size:1.2em;
+        text-align:center;
+    }
+    
+    #main {
+        margin:10em auto;
+        border-top:1px solid #f0f0f0;
+        padding-top:2.4em;
+    }
+    
+    span.description {
+        margin:0em auto;
+        width:70%;
+        text-align:center;
+        max-width:80%;
+        display:block;
+        font-size:1.3em;
+    }
+     
+     footer {
+         display:block;
+         text-align:center;
+         padding:3em;
+         font-family:Helvetica,sans-serif;
+     }
+  </style>
+</head>
+<body>
+	<header>
+	    <div id="info">
+		    <div class="student-info">Akanksha Gogi</div>
+		    <div class="student-info">500763340</div>
+	    </div>
+	    <div id="other">
+	    <div id="links">
+	        <a href="/">001. home</a>
+	        <a href="/validate">002. validate</a>
+	        <a href="/technical">003. technical report</a>
+	    </div>
+	    <h1 id="title">
+	        let's talk about movies
+	    </h1>
+	    </div>
+	</header>
+	<div id="main">
+	    <h2>Technical Report</h2>
+	    <section style="margin:3em auto; border:1px solid #eee;border-radius:5px;padding:10px 30px;background-color:#f9f9f9;width:40em;height:30em;overflow-y:auto;">
+	    <pre style="white-space: pre-wrap;text-align:left;font-family:consolas;font-size:12px;">
+&lt;!DOCTYPE html&gt;
+
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;!-- icon and title of the page --&gt;
+  &lt;link rel="icon" href="http://www.freepngimg.com/thumb/cherry/3-red-cherry-png-image-download-thumb.png"/&gt;
+  &lt;title&gt;CPS530 Lab #2 | Gogi, Akanksha&lt;/title&gt;
+
+  &lt;!-- meta info --&gt;
+  &lt;meta name="description" content="A few of my favorite movies."&gt;
+  &lt;meta name="keywords" content="Film,Movie"&gt;
+  &lt;meta name="author" content="Akanksha Gogi"&gt;
+
+  &lt;link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet"&gt;
+  
+  &lt;script&gt;
+            &lt;!--hide
+            var password;
+            var pass1="1";
+            password=prompt('Enter password to view page:', ' ');
+            while (password != pass1) {
+                password=prompt('Wrong password. Try again:', ' ');
+            }
+            if (password == pass1)
+            alert('Correct password, click OK to enter.');
+            //--&gt;
+  &lt;/script&gt;
+        
+  &lt;style&gt;
+
+	body {
+		font-family:'Crimson Text', serif;
+		font-size:1em;
+		font-weight:200;
+		margin:0;
+		background-color:#fff;
+		overflow-x:hidden;
+		color:#000;
+	}
+
+	a {
+		text-decoration:none;
+		color:#000;
+	}
+
+	b, i {
+		color:#545454;
+	}
+
+	h1, h2, h3 {
+		font-weight:800;
+		font-size:2em;
+		font-family:'Helvetica', sans-serif;
+	}
+
+	h1 {font-weight:100;}
+	
+	h2 {font-weight:600;color:#fff;font-size:1.4em;background-color:#000;display:block;width:12em;padding:0.2em 1em;margin:0em;}
+	
+	header {
+	    margin:0px auto;
+	    width:100%;
+	    padding-top:2em;
+	    text-align:center;
+	}
+	
+	#info {
+	    margin:0em auto;
+	    padding:0.3em;
+	    background-color:#f9f9f9;
+	    border-radius:0.1em;
+	    border:1px solid #f0f0f0;
+	    width:17em;
+	}
+
+    .student-info {
+        display:inline-block;
+        color:#545454;
+        margin-right:3em;
+        margin-left:3em;
+        font-size:0.7em;
+        font-family:'Helvetica',sans-serif;
+    }
+    
+    #other {
+        width:25em;
+        margin:0em auto;
+    }
+    
+    #links {
+        width:8em;
+        padding-top:2em;
+        float:left;
+        margin-top:1.5em;
+        text-align:right;
+    }
+    
+    #links a {
+        display:block;
+        font-size:0.6em;
+        font-weight:bold;
+        font-family:Helvetica, sans-serif;
+        text-transform:uppercase;
+        margin-bottom:0.5em;
+    }
+    
+    #links a:hover {
+        font-style:italic;
+    }
+    
+    h1#title {
+        float:right;
+        text-align:left;
+        width:8em;
+        text-decoration:underline;
+    }
+    
+    #main {
+        margin:10em auto;
+        border-top:1px solid #f0f0f0;
+        padding-top:2.4em;
+    }
+    
+    p.description {
+        margin:0em auto;
+        width:50%;
+        max-width:80%;
+        font-size:1.1em;
+        text-indent:3em;
+    }
+    
+    span.description {
+        margin:0em auto;
+        width:70%;
+        padding:3em;
+        max-width:80%;
+        display:block;
+        font-size:1.3em;
+        text-indent:3em;
+    }
+    
+    .movie-image {
+        height:25em;
+        text-align:center;
+        width:100%;
+        max-height:20%;
+        background-color:#f9f9f9;
+        background-size:cover;
+    }
+    
+    .one {
+        background-image:url('https://wp.wwu.edu/foxycinema/files/2016/04/the-wolf-1rbpxkq.png');
+    }
+    
+    .two {
+        background-image:url('http://static.tumblr.com/oxdtjkf/1k4oxihnl/oiw.jpg');
+        background-position:center center;
+    }
+    
+    .contain {
+        position:absolute;
+        cursor:default;
+        width:100%;
+    }
+    
+     .rating {
+         width:100%;
+         font-size:2em;
+         letter-spacing:1em;
+         color:#fff;
+         margin-left:0.5em;
+         margin-top:5.5em;
+     }
+     
+     .synopsis {
+          font-size:1.4em;
+          margin:0em auto;
+          max-width:90%;
+          width:60%;
+          font-style:italic;
+          color:#fff;
+     }
+     
+     .no-select {
+         -webkit-touch-callout: none;
+         -webkit-user-select: none;
+         -khtml-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+            user-select: none;
+     }
+     
+     table.info {
+         text-align:left;
+         border-collapse:collapse;
+         margin:3em auto;
+         background-color:#f9f9f9;
+         border:1px solid #e2e2e2;
+         border-radius:0.3em;
+         width:90%;
+     }
+     
+     table.info th {
+         font-weight:bold;
+         font-size:110%;
+     }
+     
+     table.info th, table.info td{
+         padding:0.5em 1em;
+         margin:0em;
+         min-width:6em;
+     }
+     
+     .members td {
+         border-bottom:1px solid #e2e2e2;
+     }
+     
+     footer {
+         display:block;
+         text-align:center;
+         padding:3em;
+         font-family:Helvetica,sans-serif;
+     }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;header&gt;
+	    &lt;div id="info"&gt;
+		    &lt;div class="student-info"&gt;Akanksha Gogi&lt;/div&gt;
+		    &lt;div class="student-info"&gt;500763340&lt;/div&gt;
+	    &lt;/div&gt;
+	    &lt;div id="other"&gt;
+	    &lt;div id="links"&gt;
+	        &lt;a href="http://a-gogi.github.io/cps530lab2"&gt;001. home&lt;/a&gt;
+	        &lt;a href="http://a-gogi.github.io/cps530lab2-validate"&gt;002. validate&lt;/a&gt;
+	        &lt;a href="http://a-gogi.github.io/cps530lab2-technical"&gt;003. technical report&lt;/a&gt;
+	    &lt;/div&gt;
+	    &lt;h1 id="title"&gt;
+	        let's talk about movies
+	    &lt;/h1&gt;
+	    &lt;/div&gt;
+	&lt;/header&gt;
+	&lt;div id="main"&gt;
+		&lt;span class="description"&gt;Lights, camera, action! Movies have been with us for decades, ever since the invention of the camera. With the advancements of technology, there have been endless possiblities of revoluntionizing the films we consume. Let's take a look at some of the best films that I have enjoyed. Why? Because, this is &lt;i&gt;my&lt;/i&gt; assignment.&lt;/span&gt;
+		&lt;br&gt;&lt;br&gt;
+		
+		&lt;!-- FILM #001: FANTASTIC MR. FOX (2009) --&gt;
+		&lt;div class="film"&gt;
+	    	&lt;h2 class="movie-name"&gt;Fantastic Mr. Fox (2009)&lt;/h2&gt;
+	    	&lt;div class="movie-image one"&gt;
+	    	    &lt;div class="contain no-select"&gt;
+	    	        &lt;div class="rating"&gt;★★★★☆&lt;/div&gt;
+	    	        &lt;div class="synopsis"&gt;An urbane fox cannot resist returning to his farm raiding ways and then must help his community survive the farmers' retaliation.&lt;/div&gt;
+	    	    &lt;/div&gt;
+	    	&lt;/div&gt;
+	    	&lt;br&gt;&lt;br&gt;
+		    &lt;p class="description"&gt;This film was one of the few animation films that I could watch many times over and over again and still enjoy it. Instead of calling it a cult film, since it has no cult qualities, it is just a great classic to add to Wes Anderson's library.&lt;/p&gt;
+		    &lt;p class="description"&gt;I enjoyed that the characters had complex personalities and each were able to learn something from their experiences in the film. We see Mr. Fox struggling with living a quiet domestic life, while Mrs. Fox wanted exactly that. Ash develops a inferiority complex over his cousin Kristopherson, who is too naive to know what he wants to do with his life.&lt;/p&gt;
+	    	&lt;table class="info"&gt;
+	    	    &lt;tr&gt;&lt;th colspan="5"&gt;Fantastic Mr. Fox ⏤ some notable wins and nominations&lt;/th&gt;&lt;/tr&gt;
+	    	    &lt;tr&gt;
+	    	        &lt;th&gt;Director&lt;/th&gt;
+	    	        &lt;th colspan="2"&gt;Writers&lt;/th&gt;
+	    	        &lt;th colspan="2"&gt;Lead Actors&lt;/th&gt;
+	    	    &lt;/tr&gt;
+	    	    &lt;tr class="members"&gt;
+	    	        &lt;td&gt;Wes Anderson&lt;/td&gt;
+	    	        &lt;td&gt;Roald Dahl&lt;/td&gt;
+	    	        &lt;td&gt;Wes Anderson&lt;/td&gt;
+		            &lt;td&gt;George Clooney&lt;/td&gt;
+		            &lt;td&gt;Meryl Streep&lt;/td&gt;
+		        &lt;/tr&gt;
+		        &lt;tr&gt;
+		            &lt;td&gt;2010 Oscars ⏤ Nominated, Best Animated Feature Film of the Year&lt;/td&gt;
+		            &lt;td rowspan="3"&gt;Not nominated&lt;/td&gt;
+		            &lt;td rowspan="3"&gt;2010 Annie Awards ⏤  Won, Writing in a Feature Production&lt;/td&gt;
+		            &lt;td&gt;2010 COFCA ⏤ Won, Actor of the Year&lt;/td&gt;
+		            &lt;td&gt;2009 EDA Female Focus Award ⏤ Won, Actress Defying Age and Ageism&lt;/td&gt;
+		         &lt;/tr&gt;
+		         &lt;tr&gt;
+		            &lt;td&gt;2010 BAFTA ⏤ Nominated, Best Animated Film&lt;/td&gt;
+		            &lt;td rowspan="2"&gt;2010 NYFCC ⏤ Won, Best Actor&lt;/td&gt;
+		            &lt;td rowspan="2"&gt;2010 NSFC Award ⏤ Nominated, Best Actress&lt;/td&gt;
+		         &lt;/tr&gt;
+		         &lt;tr&gt;
+		            &lt;td&gt;2010 AIAFF ⏤ Won, Best Feature&lt;/td&gt;
+		         &lt;/tr&gt;
+	    	&lt;/table&gt;
+	     &lt;/div&gt;
+	     &lt;!-- END OF FILM #001 --&gt;
+	     
+	     &lt;!-- FILM #002: EX-MACHINA (2015) --&gt;
+		&lt;div class="film"&gt;
+	    	&lt;h2 class="movie-name"&gt;Ex-Machina (2014)&lt;/h2&gt;
+	    	&lt;div class="movie-image two"&gt;
+	    	    &lt;div class="contain no-select"&gt;
+	    	        &lt;div class="rating"&gt;★★★★☆&lt;/div&gt;
+	    	        &lt;div class="synopsis"&gt;A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a breath-taking humanoid A.I.&lt;/div&gt;
+	    	    &lt;/div&gt;
+	    	&lt;/div&gt;
+	    	&lt;br&gt;&lt;br&gt;
+		    &lt;p class="description"&gt;I'm not a big fan of sci-fi films but this one really was different from the rest. Unlike other sci-fi genre movies, this one chose to focus on one topic and that was artifical intelligence. I really liked that they took such a simple plot, in a short time setting, and made it into so much more.&lt;/p&gt;
+		    &lt;p class="description"&gt;Filled with a smashing plot twist, Ex-Machina redefines modern sci-fi to really crawl into the audiences skin and ask the tough questions.&lt;/p&gt;
+	    	&lt;table class="info"&gt;
+	    	    &lt;tr&gt;&lt;th colspan="5"&gt;Ex-Machina ⏤ some notable wins and nominations&lt;/th&gt;&lt;/tr&gt;
+	    	    &lt;tr&gt;
+	    	        &lt;th&gt;Director&lt;/th&gt;
+	    	        &lt;th&gt;Writer&lt;/th&gt;
+	    	        &lt;th colspan="3"&gt;Lead Actors&lt;/th&gt;
+	    	    &lt;/tr&gt;
+	    	    &lt;tr class="members"&gt;
+	    	        &lt;td&gt;Alex Garland&lt;/td&gt;
+	    	        &lt;td&gt;Alex Garland&lt;/td&gt;
+	    	        &lt;td&gt;Alicia Vikander&lt;/td&gt;
+		            &lt;td&gt;Domhnall Gleeson&lt;/td&gt;
+		            &lt;td&gt;Oscar Isaac&lt;/td&gt;
+		        &lt;/tr&gt;
+		        &lt;tr&gt;
+		            &lt;td&gt;2016 BSFC ⏤ Won, Best New Filmmaker&lt;/td&gt;
+		            &lt;td rowspan="2"&gt;2016 Oscars ⏤ Nominated, Best Writing, Original Screenplay&lt;/td&gt;
+		            &lt;td&gt;2016 TFCA ⏤  Won, Best Supporting Actress&lt;/td&gt;
+		            &lt;td&gt;2016 IFTA ⏤ Nominated, Best Actor in a Lead Role - Film&lt;/td&gt;
+		            &lt;td&gt;2016 Gold Derby Award ⏤ Nominated, Supporting Actor&lt;/td&gt;
+		         &lt;/tr&gt;
+		         &lt;tr&gt;
+		            &lt;td&gt;2015 BIFA ⏤ Won, Best Director & Best Screenplay&lt;/td&gt;
+		            &lt;td&gt;2016 Golden Global ⏤ Nominated, Best Supporting Actress – Motion Picture&lt;/td&gt;
+		            &lt;td&gt;2016 Saturn Award ⏤ Nominated, Best Actor&lt;/td&gt;
+		            &lt;td&gt;2015 FFCC Award ⏤ Nominated, Best Supporting Actor&lt;/td&gt;
+		         &lt;/tr&gt;
+	    	&lt;/table&gt;
+	     &lt;/div&gt;
+	     &lt;!-- END OF FILM #002 --&gt;
+   		&lt;/div&gt;
+		&lt;footer&gt;Information acquired from IMDB.com&lt;/footer&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+	    </pre>
+	    </section>
+	    
+	    <h3 class="question">What is your element CSS class?</h3>
+		<span class="description">I used many different element CSS classes but one notable one is <b>p.description</b> and <b>span.description</b>.</span>
+		
+		<h3 class="question">What is your global CSS class?</h3>
+		<span class="description">Once again, I used many different global CSS classes but one notable one is <b>.student-info</b> to style my name and student number on the top of the page.</span>
+		
+		<h3 class="question">What are your HTML5-only tags?</h3>
+		<span class="description">I used <b>footer</b> and <b>header</b> which are HTML5-only tags.</span>
+    
+         <h3 class="question">What are your CSS3-only features?</h3>
+		<span class="description">I used <b>border-radius</b> and <b>background-size</b> which are CSS3-only features.</span>
+		
+		<h3 class="question">Did you use the same protection method? If no, what did you use this time?</h3>
+		<span class="description">I used the same protection method.</span>
+		
+		<h3 class="question">How long did you spend on this lab (approximately)?</h3>
+		<span class="description">Around eight hours.</span>
+    </div>
+	
+</body>
+</html>
